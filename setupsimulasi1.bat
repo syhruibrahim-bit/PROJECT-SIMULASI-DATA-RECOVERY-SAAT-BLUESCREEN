@@ -1,6 +1,6 @@
 @echo off
 title Setup SimulasiDrive_D
-echo Membuat struktur folder dan file dummy di D:\SimulasiDrive_D ...
+echo Membuat struktur folder dan file di D:\SimulasiDrive_D ...
 
 set "base=D:\SimulasiDrive_D"
 
