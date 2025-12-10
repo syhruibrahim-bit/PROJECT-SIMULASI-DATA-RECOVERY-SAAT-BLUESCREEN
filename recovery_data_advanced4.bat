@@ -83,7 +83,7 @@ set "dst=C:\SimulasiDrive_C\BackupWithNotif_%DATE:~6,4%%DATE:~3,2%%DATE:~0,2%"
 mkdir "%dst%"
 xcopy "%src%\*" "%dst%\" /E /H /C /I /Y > "%dst%\recovery_log.txt"
 
-echo Kepada: user@example.com > "%dst%\email_notif.txt"
+echo Kepada: syhruibrahim@gmail.com > "%dst%\email_notif.txt"
 echo Subjek: Backup Selesai >> "%dst%\email_notif.txt"
 echo Isi: Backup berhasil ke %dst% pada %DATE% %TIME% >> "%dst%\email_notif.txt"
 
