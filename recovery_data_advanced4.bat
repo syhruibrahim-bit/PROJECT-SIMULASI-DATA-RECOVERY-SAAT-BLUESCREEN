@@ -1,12 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
-title Project 6 – Advanced Backup System
+title Project 6 â€“ Advanced Backup System
 
 :: Menu utama
 :menu
 cls
 echo ================================
-echo     PROJECT 6 – ADVANCED BACKUP
+echo     PROJECT 6 â€“ ADVANCED BACKUP
 echo ================================
 echo Pilih mode backup:
 echo [1] Selective Backup (pilih folder dan ekstensi)
@@ -24,7 +24,7 @@ if "%pilihan%"=="4" goto email
 if "%pilihan%"=="0" exit
 goto menu
 
-:: Mode 1 – Selective Backup
+:: Mode 1 â€“ Selective Backup
 :selective
 cls
 echo === Selective Backup ===
@@ -47,7 +47,7 @@ echo Backup selesai ke: %dst%
 pause
 goto menu
 
-:: Mode 2 – Incremental Backup
+:: Mode 2 â€“ Incremental Backup
 :incremental
 cls
 echo === Incremental Backup ===
@@ -63,7 +63,7 @@ echo Backup incremental selesai ke: %dst%
 pause
 goto menu
 
-:: Mode 3 – Scheduled Backup
+:: Mode 3 â€“ Scheduled Backup
 :scheduled
 cls
 echo === Scheduled Backup ===
@@ -74,7 +74,7 @@ echo Menunggu %interval% detik untuk backup berikutnya...
 timeout /t %interval%
 goto loop
 
-:: Mode 4 – Email Notification (Simulasi)
+:: Mode 4 â€“ Email Notification (Simulasi)
 :email
 cls
 echo === Simulasi Email Notification ===
